@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculator-body{
+    margin:5% auto;
+    height: 400px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.844);;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px 80px 20px;
+    border-radius: 20px;
+    box-shadow:0px 0px 15px 1px rgb(0, 0, 0)
+}
+.first-row, .second-row, .third-row, .fourth-row, .actions{
+    display: flex;
+}
+button, input{
+    flex: 1;
+    padding: 20px;
+    background-color:rgb(31, 31, 31);
+    color: white;
+    border-radius: 20px;
+    margin: 5px;
+    box-shadow:0px 0px 30px 10px rgb(44, 44, 44)
+}
+
+input{
+    padding: 30px;
+}
